@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:/Users/danielcharry/Projects/Personal/Swift/Training-ios/WBooks/Configuration File/Development.xcconfig">
+   </FileRef>
+   <FileRef
       location = "group:WBooks.xcodeproj">
    </FileRef>
    <FileRef

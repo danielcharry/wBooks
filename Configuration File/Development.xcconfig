@@ -1,0 +1,12 @@
+//
+//  Development.xcconfig
+//  
+//
+//  Created by Daniel Andres Charry on 25/04/2021.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+// APP Values
+APP_NAME = WBooks (Dev - Daniel)
