@@ -9,13 +9,15 @@
 /* Begin PBXBuildFile section */
 		013F629C4EA365638C7794C4 /* Pods_WBooks_WBooksUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C73FD6DADE99D423257B66A0 /* Pods_WBooks_WBooksUITests.framework */; };
 		B78175C42636113700CED79D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78175C32636113700CED79D /* AppDelegate.swift */; };
-		B78175C62636113700CED79D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78175C52636113700CED79D /* SceneDelegate.swift */; };
-		B78175C82636113700CED79D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78175C72636113700CED79D /* ViewController.swift */; };
-		B78175CB2636113700CED79D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B78175C92636113700CED79D /* Main.storyboard */; };
 		B78175CD2636113B00CED79D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B78175CC2636113B00CED79D /* Assets.xcassets */; };
 		B78175D02636113B00CED79D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B78175CE2636113B00CED79D /* LaunchScreen.storyboard */; };
 		B78175DB2636113B00CED79D /* WBooksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78175DA2636113B00CED79D /* WBooksTests.swift */; };
 		B78175E62636113B00CED79D /* WBooksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78175E52636113B00CED79D /* WBooksUITests.swift */; };
+		B7EDEB9E263619C80039CE19 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EDEB9D263619C80039CE19 /* LoginViewController.swift */; };
+		B7EDEBA3263619D40039CE19 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EDEBA2263619D40039CE19 /* LoginView.swift */; };
+		B7EDEBA8263619DF0039CE19 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EDEBA7263619DF0039CE19 /* LoginViewModel.swift */; };
+		B7EDEBAD263619F50039CE19 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7EDEBAC263619F50039CE19 /* LoginViewController.xib */; };
+		B7EDEBBA26361CDC0039CE19 /* GeneralViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EDEBB926361CDC0039CE19 /* GeneralViewController.swift */; };
 		BF69F11F7677CD1075603A5F /* Pods_WBooks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D706F666680AE87ADEE993C /* Pods_WBooks.framework */; };
 		CF3BEAE24D96D92FD4F03921 /* Pods_WBooksTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A195ED6BEAFF6D3E125DD7D /* Pods_WBooksTests.framework */; };
 /* End PBXBuildFile section */
@@ -47,9 +49,6 @@
 		9A195ED6BEAFF6D3E125DD7D /* Pods_WBooksTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WBooksTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B78175C02636113700CED79D /* WBooks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WBooks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B78175C32636113700CED79D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B78175C52636113700CED79D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B78175C72636113700CED79D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B78175CA2636113700CED79D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B78175CC2636113B00CED79D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B78175CF2636113B00CED79D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B78175D12636113B00CED79D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -59,6 +58,11 @@
 		B78175E12636113B00CED79D /* WBooksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WBooksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B78175E52636113B00CED79D /* WBooksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WBooksUITests.swift; sourceTree = "<group>"; };
 		B78175E72636113B00CED79D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7EDEB9D263619C80039CE19 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		B7EDEBA2263619D40039CE19 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		B7EDEBA7263619DF0039CE19 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		B7EDEBAC263619F50039CE19 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		B7EDEBB926361CDC0039CE19 /* GeneralViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralViewController.swift; sourceTree = "<group>"; };
 		C73FD6DADE99D423257B66A0 /* Pods_WBooks_WBooksUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WBooks_WBooksUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9546D96B26F7C2CA805A228 /* Pods-WBooks-WBooksUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WBooks-WBooksUITests.debug.xcconfig"; path = "Target Support Files/Pods-WBooks-WBooksUITests/Pods-WBooks-WBooksUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -139,10 +143,9 @@
 		B78175C22636113700CED79D /* WBooks */ = {
 			isa = PBXGroup;
 			children = (
+				B7EDEBB826361CCA0039CE19 /* Extensions */,
+				B7EDEB8E2636197A0039CE19 /* Login */,
 				B78175C32636113700CED79D /* AppDelegate.swift */,
-				B78175C52636113700CED79D /* SceneDelegate.swift */,
-				B78175C72636113700CED79D /* ViewController.swift */,
-				B78175C92636113700CED79D /* Main.storyboard */,
 				B78175CC2636113B00CED79D /* Assets.xcassets */,
 				B78175CE2636113B00CED79D /* LaunchScreen.storyboard */,
 				B78175D12636113B00CED79D /* Info.plist */,
@@ -166,6 +169,25 @@
 				B78175E72636113B00CED79D /* Info.plist */,
 			);
 			path = WBooksUITests;
+			sourceTree = "<group>";
+		};
+		B7EDEB8E2636197A0039CE19 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				B7EDEB9D263619C80039CE19 /* LoginViewController.swift */,
+				B7EDEBA2263619D40039CE19 /* LoginView.swift */,
+				B7EDEBA7263619DF0039CE19 /* LoginViewModel.swift */,
+				B7EDEBAC263619F50039CE19 /* LoginViewController.xib */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		B7EDEBB826361CCA0039CE19 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B7EDEBB926361CDC0039CE19 /* GeneralViewController.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,7 +300,7 @@
 			files = (
 				B78175D02636113B00CED79D /* LaunchScreen.storyboard in Resources */,
 				B78175CD2636113B00CED79D /* Assets.xcassets in Resources */,
-				B78175CB2636113700CED79D /* Main.storyboard in Resources */,
+				B7EDEBAD263619F50039CE19 /* LoginViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,9 +428,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B78175C82636113700CED79D /* ViewController.swift in Sources */,
+				B7EDEB9E263619C80039CE19 /* LoginViewController.swift in Sources */,
+				B7EDEBA8263619DF0039CE19 /* LoginViewModel.swift in Sources */,
 				B78175C42636113700CED79D /* AppDelegate.swift in Sources */,
-				B78175C62636113700CED79D /* SceneDelegate.swift in Sources */,
+				B7EDEBBA26361CDC0039CE19 /* GeneralViewController.swift in Sources */,
+				B7EDEBA3263619D40039CE19 /* LoginView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,14 +468,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B78175C92636113700CED79D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B78175CA2636113700CED79D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B78175CE2636113B00CED79D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
